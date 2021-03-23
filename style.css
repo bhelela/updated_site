@@ -196,7 +196,7 @@ HEADER
 ******************************************/
 
 .topbar {
-    background-color: #000;
+    background-color: #3b5998;
     margin-bottom: 30px;
     padding: 12px 0 14px;
 }
@@ -206,6 +206,7 @@ HEADER
     color: #fff;
     font-size: 14px;
     margin: 0;
+    width:755px;
 }
 
 .topbar .text-left p {
@@ -223,7 +224,7 @@ HEADER
     top: 0;
     right: 0;
     padding: 0;
-    background-color: transparent;
+    background-color: white;
     text-decoration: none !important;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -250,7 +251,7 @@ HEADER
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #000;
+    background-color: white;
     left: 0;
     padding: 15px 0;
     right: 0,
@@ -269,12 +270,12 @@ HEADER
 .navbar-default {
     margin: 0;
     background-color: transparent;
-    background: none;
+    background: white;
     border: 0;
 }
 
 .navbar-default .nav>li>a {
-    color: #fff !important;
+    color: black !important;
     text-transform: capitalize;
     font-size: 15px;
     font-weight: 500;
@@ -307,7 +308,6 @@ HEADER
     font-size: 12px;
     color: #fff !important;
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.1);
     width: 25px;
     text-align: center;
     border-radius: 1px;
@@ -331,25 +331,6 @@ HEADER
     padding: 0 10px 0 0;
 }
 
-.social a.facebook {
-    background-color: #3b5998;
-}
-
-.social a.pinterest {
-    background-color: #bd081c;
-}
-
-.social a.twitter {
-    background-color: #1da1f2;
-}
-
-.social a.google {
-    background-color: #34a853;
-}
-
-.social a.linkedin {
-    background-color: #0077b5;
-}
 
 .modal {
     top: 40%;
@@ -997,8 +978,8 @@ SECTIONS
     margin: 0 auto;
     padding: 0;
     font-size: 16px;
-    font-family: 'Droid Serif', sans-serif;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .section.gb {
@@ -1064,11 +1045,11 @@ SECTIONS
 }
 
 .home-message p {
-    font-size: 54px;
-    color: #ffffff;
+    font-size: 24px;
+    color: #3b5998;
     padding: 0;
     margin: 0;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .home-message small {
@@ -1076,6 +1057,7 @@ SECTIONS
     font-family: 'Droid Serif', sans-serif;
     font-style: italic;
     display: block;
+    color: #3b5998;
     padding: 20px 0 35px;
     margin: 0;
 }
@@ -2034,7 +2016,6 @@ BUTTONS
     color: #ffffff !important;
     padding: 13px 40px;
     text-transform: capitalize;
-    background-color:blue
 }
 
 .btn-transparent {
@@ -2300,6 +2281,7 @@ RESPONSIVE
         opacity: 1;
         left: 100%;
     }
+   
 }
 
 @media (max-width: 1200px) {
@@ -2307,3 +2289,21 @@ RESPONSIVE
         padding: 1em 0.7em;
     }
 }
+.vertical-line {
+    display: inline-block;
+    border-left: 4px solid rgb(54, 42, 228);
+    margin: 0 10px;
+    height: 100%;
+}
+.b-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
